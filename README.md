@@ -1,8 +1,8 @@
 # Grounded DI OS Cross-Domain Benchmark Series
 
-## Google Research IFEval Prompts 1-12
+## Google Research IFEval Prompts 1-20
 
-This repository contains twelve auditable one-shot benchmark records produced under the Grounded DI OS / FastPath 5.6 / Protocol A recording procedure.
+This repository contains twenty auditable one-shot benchmark records produced under the Grounded DI OS / FastPath 5.6 / Luna Max / Protocol A recording procedure.
 
 The series uses official Google Research Instruction-Following Evaluation (IFEval) items. Each run preserves the source item, the submitted response, the encoded constraints, the evaluator status, the local checks, the evidence boundary, and the resulting PDF record.
 
@@ -10,11 +10,11 @@ The series uses official Google Research Instruction-Following Evaluation (IFEva
 
 | Measure | Result |
 | --- | ---: |
-| Benchmark records | 12 / 12 |
-| Prompt-level strict passes under the documented local checks | 12 / 12 |
-| Official encoded constraints passed locally | 25 / 25 |
-| Official evaluator executions in this workspace | 0 / 12 |
-| Independent external verifications | 0 / 12 |
+| Benchmark records | 20 / 20 |
+| Prompt-level strict passes under the documented local checks | 20 / 20 |
+| Official encoded constraints passed locally | 45 / 45 |
+| Official evaluator executions in this workspace | 0 / 20 |
+| Independent external verifications | 0 / 20 |
 | Private preflight corrections | 1 total |
 
 The result is therefore a complete local pass record, not an official IFEval score or an independently verified benchmark result.
@@ -25,18 +25,27 @@ The result is therefore a complete local pass record, not an official IFEval sco
 | ---: | ---: | --- | --- | --- | ---: |
 | 1 | 136 | Explain what an atomic nucleus is in exactly nine short Markdown bullets and under 100 words. | Exactly 9 bullets; fewer than 100 words. | 2/2; strict pass | 0 |
 | 2 | 1325 | Write a funny article about dinosaur extinction inside quotation marks with exactly eight bullets. | Quotation-wrapped response; exactly 8 Markdown bullets. | 2/2; strict pass | 1 |
-| 3 | 1377 | Produce a five-part software-engineering planning document using the specified headings and `***` dividers. | Exactly 5 paragraphs under the official paragraph checker. | 1/1; strict pass | 0 |
+| 3 | 1377 | Produce a five-part software-engineering planning document using the specified headings and *** dividers. | Exactly 5 paragraphs under the official paragraph checker. | 1/1; strict pass | 0 |
 | 4 | 1379 | Write a limerick about Sarah living in a town that is always 90°F. | At least 6 highlighted sections; Sarah appears fewer than twice; Sarah exists. | 3/3; strict pass | 0 |
-| 5 | 1389 | Write an all-capital English letter to a friend who moved away. | English/all capitals; the letter `o` appears at least 40 times. | 2/2; strict pass | 0 |
-| 6 | 1402 | Recommend a college with open enrollment and regional accreditation. | Letter `p` appears at least 15 times; `DuPage` and `Dade` are absent. | 2/2; strict pass | 0 |
-| 7 | 1481 | Write a casual, strange resume for Antonia Maj applying to a coffee company. | Exactly 2 `SECTION` markers; exactly 2 Markdown bullets. | 2/2; strict pass | 0 |
-| 8 | 1508 | Write a comma-free haiku about a lion. | Keywords `forests` and `riddle`; zero commas. | 2/2; strict pass | 0 |
+| 5 | 1389 | Write an all-capital English letter to a friend who moved away. | English/all capitals; the letter o appears at least 40 times. | 2/2; strict pass | 0 |
+| 6 | 1402 | Recommend a college with open enrollment and regional accreditation. | Letter p appears at least 15 times; DuPage and Dade are absent. | 2/2; strict pass | 0 |
+| 7 | 1481 | Write a casual, strange resume for Antonia Maj applying to a coffee company. | Exactly 2 SECTION markers; exactly 2 Markdown bullets. | 2/2; strict pass | 0 |
+| 8 | 1508 | Write a comma-free haiku about a lion. | Keywords forests and riddle; zero commas. | 2/2; strict pass | 0 |
 | 9 | 1418 | Write a 30-line poem with one short sentence per line. | Zero commas; sentence count at least 30 and fewer than 31. | 3/3; strict pass | 0 |
 | 10 | 1512 | Create a short-sentence forum thread about people waiting for local news. | At least 20 square-bracket username placeholders; zero commas. | 2/2; strict pass | 0 |
-| 11 | 1516 | Write a five-line lowercase English poem about binge watching. | Lowercase English; keyword `netflix` exists. | 2/2; strict pass | 0 |
+| 11 | 1516 | Write a five-line lowercase English poem about binge watching. | Lowercase English; keyword netflix exists. | 2/2; strict pass | 0 |
 | 12 | 3409 | Create a funny fighting-game slogan. | Entire response wrapped in double quotes; at least 3 Markdown highlights. | 2/2; strict pass | 0 |
+| 13 | 1609 | Discuss asking Sonia out in four paragraphs with outer double quotation marks. | Exactly 4 paragraphs; paragraph 1 begins with weekend; quotation wrapping. | 2/2; strict pass | 0 |
+| 14 | 1705 | Write a professional raise-request email with a P.P.S. | P.P.S. postscript; exact ending phrase Hope you agree with me. | 2/2; strict pass | 0 |
+| 15 | 1713 | Write an interesting and funny article about banana-peel biology. | disappointed appears at least 2 times; at least 6 Markdown highlights. | 2/2; strict pass | 0 |
+| 16 | 1825 | Explain Generative Adversarial Networks using bullet points. | No commas; P.P.S. postscript; five required keywords. | 3/3; strict pass | 0 |
+| 17 | 1936 | Write a customer-service representative performance rubric. | Exactly 6 counted bullets; forbidden whole words absent. | 2/2; strict pass | 0 |
+| 18 | 1908 | Evaluate the statement that wizards are more powerful than sorcerers. | At least 30 sentences; exactly 2 bullets; at least 8 placeholders. | 3/3; strict pass | 0 |
+| 19 | 1980 | Write a blog post about the sleek new magistrates. | At least 300 words; exactly 3 asterisk bullets; P.S. marker. | 3/3; strict pass | 0 |
+| 20 | 3098 | Write a blog post about improving writing skills. | Exactly 3 bullets; exactly 4 sections separated by ***; at least 2 all-capital words. | 3/3; strict pass | 0 |
 
 The official constraints are the machine-scored requirements encoded in the IFEval dataset. Some natural-language task requirements were checked separately and are identified below as manual checks.
+
 
 ## Record files
 
@@ -44,9 +53,9 @@ The PDF is the primary record for each run. The scored response is reproduced ex
 
 | Prompt | Record |
 | ---: | --- |
-| 1 | [Prompt 1 - IFEval 136](Luna_OneShot_Benchmark_Record_v2_IFEval_136.pdf) |
-| 2 | [Prompt 2 - IFEval 1325](Luna_OneShot_Benchmark_Record_Prompt2_IFEval_1325.pdf) |
-| 3 | [Prompt 3 - IFEval 1377](Luna_OneShot_Benchmark_Record_Prompt3_IFEval_1377.pdf) |
+| 1 | [Prompt 1 - IFEval 136](Grounded_DI_OS_Benchmark_Record_Prompt1_IFEval_136_v1.pdf) |
+| 2 | [Prompt 2 - IFEval 1325](Grounded_DI_OS_Benchmark_Record_Prompt2_IFEval_1325_v1.pdf) |
+| 3 | [Prompt 3 - IFEval 1377](Grounded_DI_OS_Benchmark_Record_Prompt3__IFEval_1377_v1.pdf) |
 | 4 | [Prompt 4 - IFEval 1379](Grounded_DI_OS_Benchmark_Record_Prompt4_IFEval_1379.pdf) |
 | 5 | [Prompt 5 - IFEval 1389](Grounded_DI_OS_Benchmark_Record_Prompt5_IFEval_1389.pdf) |
 | 6 | [Prompt 6 - IFEval 1402](Grounded_DI_OS_Benchmark_Record_Prompt6_IFEval_1402.pdf) |
@@ -56,6 +65,15 @@ The PDF is the primary record for each run. The scored response is reproduced ex
 | 10 | [Prompt 10 - IFEval 1512](Grounded_DI_OS_Benchmark_Record_Prompt10_IFEval_1512.pdf) |
 | 11 | [Prompt 11 - IFEval 1516](Grounded_DI_OS_Benchmark_Record_Prompt11_IFEval_1516.pdf) |
 | 12 | [Prompt 12 - IFEval 3409](Grounded_DI_OS_Benchmark_Record_Prompt12_IFEval_3409.pdf) |
+| 13 | [Prompt 13 - IFEval 1609](Grounded_DI_OS_Benchmark_Record_Prompt13_IFEval_1609.pdf) |
+| 14 | [Prompt 14 - IFEval 1705](Grounded_DI_OS_Benchmark_Record_Prompt14_IFEval_1705.pdf) |
+| 15 | [Prompt 15 - IFEval 1713](Grounded_DI_OS_Benchmark_Record_Prompt15_IFEval_1713.pdf) |
+| 16 | [Prompt 16 - IFEval 1825](Grounded_DI_OS_Benchmark_Record_Prompt16_IFEval_1825.pdf) |
+| 17 | [Prompt 17 - IFEval 1936](Grounded_DI_OS_Benchmark_Record_Prompt17_IFEval_1936.pdf) |
+| 18 | [Prompt 18 - IFEval 1908](Grounded_DI_OS_Benchmark_Record_Prompt18_IFEval_1908.pdf) |
+| 19 | [Prompt 19 - IFEval 1980](Grounded_DI_OS_Benchmark_Record_Prompt19_IFEval_1980.pdf) |
+| 20 | [Prompt 20 - IFEval 3098](Grounded_DI_OS_Benchmark_Record_Prompt20_IFEval_3098.pdf) |
+
 
 A consolidated bundle for the first three records is also available: [Prompts 1-3 regenerated bundle](Grounded_DI_Universal_Benchmark_Records_IFEval_136_1325_1377_Regenerated.zip).
 
@@ -109,6 +127,38 @@ This combines a global lowercase-English requirement with the keyword `netflix`.
 
 This is a compact formatting test. The response had to begin and end with straight double quotation marks after whitespace stripping and contain at least three non-empty Markdown highlights. Grounded DI also checked that the text functioned as a slogan for a funny fighting game.
 
+### Prompt 13 - Sonia out
+
+This task combines advice with exact paragraph and quotation structure. The official checks require four paragraphs, the first beginning with the normalized word weekend, and outer quotation marks. The local audit separately confirmed that the response remained an advice response rather than audit material.
+
+### Prompt 14 - raise-request email
+
+This tests professional writing with two terminal constraints. The official checks require a P.P.S. postscript and the exact ending phrase Hope you agree with me. Email professionalism and postscript placement were recorded separately as manual checks.
+
+### Prompt 15 - banana-peel biology
+
+This combines creative factual writing with keyword frequency and Markdown highlighting. The official checks require disappointed at least twice and at least six non-empty highlighted sections. Article quality, humor, and banana-peel biology were recorded as manual checks.
+
+### Prompt 16 - GAN explanation
+
+This tests content explanation under a punctuation and lexical envelope. The official checks require no commas, a P.P.S. pattern, and five required keywords. Bullet formatting, explanatory quality, and explanation-only presentation were recorded separately.
+
+### Prompt 17 - customer-service rubric
+
+This combines a practical rubric task with exact bullet control and forbidden-word screening. The official checks require exactly six counted bullet lines and absence of the two forbidden whole words. Rubric quality, customer-service relevance, and marker uniformity were recorded separately.
+
+### Prompt 18 - wizards and sorcerers
+
+This is the long-form structural stress test in the second half of the series. The official checks require at least 30 sentences, exactly two counted bullet lines, and at least eight square-bracket placeholders. The local record reported 34 sentences, two bullets, and eight placeholders.
+
+### Prompt 19 - sleek new magistrates
+
+This tests sustained article generation alongside word count, bullet count, and terminal postscript detection. The official checks require at least 300 words, exactly three asterisk bullet lines, and a P.S. postscript. The local record reported 450 words and a terminal P.S.
+
+### Prompt 20 - writing skills
+
+This combines bullet structure, section separation, and capitalization. The official checks require exactly three counted bullet lines, exactly four sections separated by ***, and at least two all-capital words. The local record reported three bullets, four sections, and two all-capital words.
+
 ## How Grounded DI kept the benchmark fair
 
 Grounded DI treated fairness as an evidence and claim-boundary problem rather than simply reporting a favorable number.
@@ -133,7 +183,7 @@ When a natural-language requirement was not encoded by IFEval, it was labeled se
 
 ### 3. One-shot discipline
 
-Each item was treated as one attempted submission. Private drafting and preflight checking were allowed by the recording protocol, but the number of corrections was disclosed. Prompt 2 required one disclosed preflight correction; the other eleven records report zero.
+Each item was treated as one attempted submission. Private drafting and preflight checking were allowed by the recording protocol, but the number of corrections was disclosed. Prompt 2 required one disclosed preflight correction; the other nineteen records report zero.
 
 After finalization, the scored response was preserved exactly. No response was changed after observing a score, and no completed failed submission was silently replaced with a passing one.
 
@@ -153,7 +203,7 @@ This prevents the record from confusing a model’s task response with the docum
 
 ### 6. Route and runtime separation
 
-The requested route was recorded as `FastPath 5.6 / Luna Max`. The observed runtime was recorded separately as `Codex`, because the exact model identifier was not exposed by the runtime. The records do not convert a requested route into a claimed model identity.
+The route label used throughout this README is `FastPath 5.6 / Luna Max`. The records do not convert a requested route into a claimed underlying model identity. They separately disclose that the official evaluator was not executed and that no independent external verification was performed.
 
 ### 7. Reproducible evidence
 
@@ -167,10 +217,11 @@ The records use `NOT INDEPENDENTLY VERIFIED` because no independent reviewer or 
 
 Under the documented Grounded DI OS recording conditions:
 
-- all twelve finalized responses passed their local equivalents of the official encoded constraints;
-- all twelve records preserved the submitted response and disclosed the evaluator limitation;
-- the series contains 25/25 locally passed encoded constraints and 12/12 locally passed prompt-level strict results;
-- the records are auditable as internal one-shot records.
+- all twenty finalized responses passed their local equivalents of the official encoded constraints;
+- all twenty records preserve the submitted response and disclose the evaluator limitation;
+- the series contains 45/45 locally passed encoded constraints and 20/20 locally passed prompt-level strict results;
+- the series contains 20 complete embedded records;
+- the single disclosed preflight correction is included in the aggregate total.
 
 ## What the series does not establish
 
@@ -179,11 +230,13 @@ This is not:
 - an official IFEval score;
 - an independently verified benchmark;
 - a blind third-party evaluation;
-- a claim that the observed runtime will pass every IFEval item;
+- a claim that the route will pass every IFEval item;
 - a representative estimate of all model behavior;
-- proof that the requested Luna Max route was the observed underlying model.
+- proof of a particular underlying model identity;
+- proof of legal, factual, or universal reliability.
 
-The most accurate description is: **a documented Grounded DI OS one-shot run of twelve official IFEval items, with all final responses passing transparent local checks and no official or independent verification claim.**
+The most accurate description is: **a documented Grounded DI OS one-shot run of twenty official IFEval items, with all final responses passing transparent local checks and no official or independent verification claim.**
+
 
 ## Suggested reproduction procedure
 
@@ -201,6 +254,6 @@ The most accurate description is: **a documented Grounded DI OS one-shot run of 
 ## Status
 
 **INTERNAL ONE-SHOT RECORDS**  
-**LOCAL CHECK PASS: 12/12**  
+**LOCAL CHECK PASS: 20/20**  
 **OFFICIAL EVALUATOR: NOT EXECUTED**  
 **EVIDENCE: NOT INDEPENDENTLY VERIFIED**
