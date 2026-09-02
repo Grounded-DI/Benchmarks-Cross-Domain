@@ -1,8 +1,8 @@
 # Grounded DI OS Cross-Domain Benchmark Series
 
-## Google Research IFEval Prompts 1-33
+## Google Research IFEval Prompts 1-35
 
-This repository contains thirty-three documented one-shot benchmark records produced under the Grounded DI OS / FastPath 5.6 / Protocol A recording procedure. Route conditions are disclosed per record: Prompts 1–20 and 33 use FastPath 5.6 / Luna Max; Prompt 21 uses FastPath 5.6 / SOL Max; Prompts 22–24 and 26–32 use FastPath 5.6 / Terra Extra High; Prompt 25 uses FastPath 5.6 / SOL Extra High.
+This repository contains thirty-five documented one-shot benchmark records produced under the Grounded DI OS / FastPath 5.6 / Protocol A recording procedure. Route conditions are disclosed per record: Prompts 1–20 and 33–35 use FastPath 5.6 / Luna Max; Prompt 21 uses FastPath 5.6 / SOL Max; Prompts 22–24 and 26–32 use FastPath 5.6 / Terra Extra High; Prompt 25 uses FastPath 5.6 / SOL Extra High.
 
 The series uses official Google Research Instruction-Following Evaluation (IFEval) items. Each run preserves the source item, the submitted response, the encoded constraints, the evaluator status, the local checks, the evidence boundary, and the resulting PDF record.
 
@@ -10,11 +10,11 @@ The series uses official Google Research Instruction-Following Evaluation (IFEva
 
 | Measure | Result |
 | --- | ---: |
-| Benchmark records | 33 / 33 |
-| Prompt-level strict passes under the documented local checks | 33 / 33 |
-| Official encoded constraints passed locally | 66 / 66 |
-| Official evaluator executions in this workspace | 13 / 33 |
-| Independent external verifications | 0 / 33 |
+| Benchmark records | 35 / 35 |
+| Prompt-level strict passes under the documented local checks | 35 / 35 |
+| Official encoded constraints passed locally | 70 / 70 |
+| Official evaluator executions in this workspace | 17 / 35 |
+| Independent external verifications | 0 / 35 |
 | Private preflight corrections | 1 total |
 
 The result is therefore a complete local pass record, not an official IFEval score or an independently verified benchmark result.
