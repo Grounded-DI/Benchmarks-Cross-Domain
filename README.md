@@ -13,7 +13,7 @@ The series uses official Google Research Instruction-Following Evaluation (IFEva
 | Benchmark records | 35 / 35 |
 | Prompt-level strict passes under the documented local checks | 35 / 35 |
 | Official encoded constraints passed locally | 70 / 70 |
-| Official evaluator executions in this workspace | 17 / 35 |
+| Official evaluator executions in this workspace | 15 / 35 |
 | Independent external verifications | 0 / 35 |
 | Private preflight corrections | 1 total |
 
@@ -297,7 +297,7 @@ After finalization, the scored response was preserved exactly. No response was c
 
 ### 4. Evaluator honesty
 
-The official IFEval evaluator was not executed for Prompts 1–20 in this workspace. Prompts 21–35 were evaluated with the official Google Research checker source: Prompt 21 reports 3/3 encoded constraints passed on both strict and loose paths, Prompts 22–27 each report 1/1 on both paths, and Prompts 28–35 each report 2/2 on both paths. The README therefore distinguishes the local checks for Prompts 1–20 from the seventeen official executions.
+The official IFEval evaluator was not executed for Prompts 1–20 in this workspace. Prompts 21–35 were evaluated with the official Google Research checker source: Prompt 21 reports 3/3 encoded constraints passed on both strict and loose paths, Prompts 22–27 each report 1/1 on both paths, and Prompts 28–35 each report 2/2 on both paths. The README therefore distinguishes the local checks for Prompts 1–20 from the fifteen official executions.
 
 Prompts 1–20 are labeled:
 
@@ -371,7 +371,7 @@ The most accurate description is: **a documented Grounded DI OS one-shot run of 
 
 **INTERNAL ONE-SHOT RECORDS**  
 **LOCAL CHECK PASS: 35/35**  
-**OFFICIAL EVALUATOR: 17/35 EXECUTED · PROMPTS 21–35 PASS**  
+**OFFICIAL EVALUATOR: 15/35 EXECUTED · PROMPTS 21–35 PASS**  
 **EVIDENCE: NOT INDEPENDENTLY VERIFIED**
 
 #Grounded-DI #DeterministicIntelligence #CrossDomain #AuditableAI 
