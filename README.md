@@ -305,7 +305,7 @@ Under the documented Grounded DI OS recording conditions:
 - all thirty records preserve the submitted response and disclose the applicable evaluator status;
 - the series contains 56/56 locally passed encoded constraints and 30/30 locally passed prompt-level strict results;
 - Prompt 21 additionally reports an official strict and loose pass for all three encoded constraints; Prompts 22–27 each report an official strict and loose pass for their one encoded constraint, and Prompts 28–30 each report an official strict and loose pass for their two encoded constraints;
-- the series contains 28 complete embedded records;
+- the series contains 30 complete embedded records;
 - the single disclosed preflight correction is included in the aggregate total.
 
 ## What the series does not establish
