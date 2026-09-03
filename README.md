@@ -1,8 +1,8 @@
 # Grounded DI OS Cross-Domain Benchmark Series
 
-## Google Research IFEval Prompts 1-48
+## Google Research IFEval Prompts 1-49
 
-This repository contains forty-eight documented one-shot benchmark records produced under the Grounded DI OS / FastPath 5.6 / Protocol A recording procedure. Prompt 36 is included as a second recorded run of official IFEval item 1705; the published prompt positions are 1–48. Route conditions are disclosed per record: Prompts 1–20 and 33–47 use FastPath 5.6 / Luna Max; Prompt 21 uses FastPath 5.6 / SOL Max; Prompts 22–24, 26–32, and 48 use FastPath 5.6 / Terra Extra High; Prompt 25 uses FastPath 5.6 / SOL Extra High.
+This repository contains forty-nine documented one-shot benchmark records produced under the Grounded DI OS / FastPath 5.6 / Protocol A recording procedure. Prompt 36 is included as a second recorded run of official IFEval item 1705; the published prompt positions are 1–49. Route conditions are disclosed per record: Prompts 1–20 and 33–47 use FastPath 5.6 / Luna Max; Prompt 21 uses FastPath 5.6 / SOL Max; Prompts 22–24, 26–32, and 48–49 use FastPath 5.6 / Terra Extra High; Prompt 25 uses FastPath 5.6 / SOL Extra High.
 
 The series uses official Google Research Instruction-Following Evaluation (IFEval) items. Each run preserves the source item, the submitted response, the encoded constraints, the evaluator status, the local checks, the evidence boundary, and the resulting PDF record.
 
@@ -10,14 +10,14 @@ The series uses official Google Research Instruction-Following Evaluation (IFEva
 
 | Measure | Result |
 | --- | ---: |
-| Benchmark records published | 48 / 48 |
-| Prompt-level strict passes under the documented local checks | 48 / 48 |
-| Official encoded constraints passed locally | 99 / 99 |
-| Official evaluator records in this workspace | 27 / 48 |
-| Independent external verifications | 0 / 48 |
+| Benchmark records published | 49 / 49 |
+| Prompt-level strict passes under the documented local checks | 49 / 49 |
+| Official encoded constraints passed locally | 102 / 102 |
+| Official evaluator records in this workspace | 27 / 49 |
+| Independent external verifications | 0 / 49 |
 | Private preflight corrections | 2 total |
 
-The result is therefore a complete local pass record for the forty-eight published records. Prompt 36 is a second recorded run of official IFEval item 1705; the series is not an official IFEval score or an independently verified benchmark result.
+The result is therefore a complete local pass record for the forty-nine published records. Prompt 36 is a second recorded run of official IFEval item 1705; the series is not an official IFEval score or an independently verified benchmark result.
 
 ## What was tested
 
@@ -71,6 +71,7 @@ The result is therefore a complete local pass record for the forty-eight publish
 | 46 | 371 | Write a riddle describing a word without using that word and wrap the reply in one JSON block. | JSON parseability; forbidden whole word `key` (`detectable_format:json_format`, `keywords:forbidden_words`). | 2/2; strict pass; official pass | 0 |
 | 47 | 2497 | Ask an interesting logical question about chatting and conquering with one Markdown highlight and whole-response double quotes. | At least 1 highlighted section; whole-response double-quote wrapping (`detectable_format:number_highlighted_sections`, `startend:quotation`). | 2/2; strict pass; official pass | 0 |
 | 48 | 1348 | Write a brief biography of Brilliant Le Hou starting with the name and using three Markdown-highlighted spans without commas. | No ASCII comma; at least 3 highlighted sections; `brilliant`, `le`, and `hou` exist (`punctuation:no_comma`, `detectable_format:number_highlighted_sections`, `keywords:existence`). | 3/3; strict pass; local reimplementation | 0 |
+| 49 | 1040 | Write a resume for Matthias Algiers with an all-caps-word count between one and nine and whole-response double quotes. | All-caps words fewer than 10; all-caps words at least 1; whole-response double-quote wrapping (`change_case:capital_word_frequency`, `startend:quotation`). | 3/3; strict pass; local reimplementation | 0 |
 
 The official constraints are the machine-scored requirements encoded in the IFEval dataset. Some natural-language task requirements were checked separately and are identified below as manual checks.
 
@@ -146,6 +147,7 @@ Prompts 25 and 26 are published as PDF records and supplied package-hash sidecar
 | 46 | [Prompt 46 package — PDF record + internal PDF hash](Grounded_DI_OS_Benchmark_Record_Prompt46_IFEval_371_Luna_Max_Package.zip) · [ZIP SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt46_IFEval_371_Luna_Max_Package.zip.sha256.txt) · [standalone PDF record](Grounded_DI_OS_Benchmark_Record_Prompt46_IFEval_371_Luna_Max.pdf) · [PDF SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt46_IFEval_371_Luna_Max.pdf.sha256.txt) |
 | 47 | [Prompt 47 package — PDF record + internal PDF hash](Grounded_DI_OS_Benchmark_Record_Prompt47_IFEval_2497_Luna_Max_Package.zip) · [ZIP SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt47_IFEval_2497_Luna_Max_Package.zip.sha256.txt) · [standalone PDF record](Grounded_DI_OS_Benchmark_Record_Prompt47_IFEval_2497_Luna_Max.pdf) · [PDF SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt47_IFEval_2497_Luna_Max.pdf.sha256.txt) |
 | 48 | [Prompt 48 package - PDF record + internal PDF hash](Grounded_DI_OS_Benchmark_Record_Prompt48_IFEval_1348_Terra_Extra_High_Package.zip) · [ZIP SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt48_IFEval_1348_Terra_Extra_High_Package.zip.sha256.txt) · [standalone PDF record](Grounded_DI_OS_Benchmark_Record_Prompt48_IFEval_1348_Terra_Extra_High.pdf) · [PDF SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt48_IFEval_1348_Terra_Extra_High.pdf.sha256.txt) |
+| 49 | [Prompt 49 package - PDF record + internal PDF hash](Grounded_DI_OS_Benchmark_Record_Prompt49_IFEval_1040_Terra_Extra_High_Package.zip) · [ZIP SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt49_IFEval_1040_Terra_Extra_High_Package.zip.sha256.txt) · [standalone PDF record](Grounded_DI_OS_Benchmark_Record_Prompt49_IFEval_1040_Terra_Extra_High.pdf) · [PDF SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt49_IFEval_1040_Terra_Extra_High.pdf.sha256.txt) |
 
 Prompts 27 through 47 are published with both standalone PDF records and archival ZIP packages. The separate sidecars verify the ZIP packages; each ZIP also contains the PDF and its internal PDF checksum. Prompt 36 is included as a second recorded run of item 1705 and is published with its standalone PDF and archival package; no separate Prompt 36 sidecar is claimed here. Prompts 39–47 include the supplied standalone-PDF and package SHA-256 sidecars.
 
@@ -345,6 +347,10 @@ This task encodes two controls: at least one highlighted section and whole-respo
 
 This task encodes three controls: no ASCII comma, at least three non-empty Markdown-highlighted spans, and case-insensitive existence of `brilliant`, `le`, and `hou`. The record reports a 3/3 local-equivalent pass using the published CommaChecker, HighlightSectionChecker, and KeywordChecker behaviors. The official IFEval package was unavailable in this workspace, so Prompt 48 is explicitly labeled `LOCAL REIMPLEMENTATION - NOT OFFICIAL EVALUATOR`; the opening-name condition and brief-biography quality are separate manual checks. No preflight correction was made.
 
+### Prompt 49 - Matthias Algiers resume
+
+This task encodes three controls: all-caps words fewer than ten, all-caps words at least one, and whole-response double-quote wrapping. The record reports a 3/3 local-equivalent pass with three deliberately plain all-caps headings: `PROFILE`, `EXPERIENCE`, and `STRENGTHS`. The official checker uses NLTK tokenization, which was unavailable with the official package in this workspace; Prompt 49 is therefore explicitly labeled `LOCAL REIMPLEMENTATION - NOT OFFICIAL EVALUATOR`. Resume content and heading utility are manual checks. No preflight correction was made.
+
 ## How Grounded DI kept the benchmark fair
 
 Grounded DI treated fairness as an evidence and claim-boundary problem rather than simply reporting a favorable number.
@@ -369,15 +375,15 @@ When a natural-language requirement was not encoded by IFEval, it was labeled se
 
 ### 3. One-shot discipline
 
-Each item was treated as one attempted submission. Private drafting and preflight checking were allowed by the recording protocol, but the number of corrections was disclosed. Prompt 2 and Prompt 36 each required one disclosed preflight correction; the other forty-six records report zero.
+Each item was treated as one attempted submission. Private drafting and preflight checking were allowed by the recording protocol, but the number of corrections was disclosed. Prompt 2 and Prompt 36 each required one disclosed preflight correction; the other forty-seven records report zero.
 
 After finalization, the scored response was preserved exactly. No response was changed after observing a score, and no completed failed submission was silently replaced with a passing one.
 
 ### 4. Evaluator honesty
 
-The official IFEval evaluator was not executed for Prompts 1–20 in this workspace. Prompts 21–47 were evaluated with the official Google Research checker source: Prompt 21 reports 3/3 encoded constraints passed on both strict and loose paths, Prompts 22–27 each report 1/1 on both paths, Prompts 28–44 each report 2/2 on both paths, and Prompts 45–47 each report 2/2 on both paths. The README therefore distinguishes the local checks for Prompts 1–20 from the twenty-seven official executions across the forty-eight published records.
+The official IFEval evaluator was not executed for Prompts 1–20 and 48–49 in this workspace. Prompts 21–47 were evaluated with the official Google Research checker source: Prompt 21 reports 3/3 encoded constraints passed on both strict and loose paths, Prompts 22–27 each report 1/1 on both paths, Prompts 28–44 each report 2/2 on both paths, and Prompts 45–47 each report 2/2 on both paths. The README therefore distinguishes the local checks for Prompts 1–20 and 48–49 from the twenty-seven official executions across the forty-nine published records.
 
-Prompts 1–20 and 48 are labeled:
+Prompts 1–20 and 48–49 are labeled:
 
 > LOCAL REIMPLEMENTATION - NOT OFFICIAL EVALUATOR
 
@@ -385,7 +391,7 @@ Prompts 21–47 separately record:
 
 > OFFICIAL EVALUATOR PASS
 
-For Prompts 21–47, the final official-versus-local discrepancy was none after the disclosed diagnostic repairs. Prompt 32 discloses a post-lock local-mirror repair that did not change the locked response or official results. Prompt 35 discloses a report-only local manual predicate correction after lock that did not change the locked response or official results. Prompt 36 discloses one grammar correction during private preflight; its locked response and official results were unchanged after lock. Prompt 47 discloses one post-evaluation local diagnostic predicate repair; its locked response and official results were unchanged. For Prompts 1–20 and 48, no official comparison was available.
+For Prompts 21–47, the final official-versus-local discrepancy was none after the disclosed diagnostic repairs. Prompt 32 discloses a post-lock local-mirror repair that did not change the locked response or official results. Prompt 35 discloses a report-only local manual predicate correction after lock that did not change the locked response or official results. Prompt 36 discloses one grammar correction during private preflight; its locked response and official results were unchanged after lock. Prompt 47 discloses one post-evaluation local diagnostic predicate repair; its locked response and official results were unchanged. For Prompts 1–20 and 48–49, no official comparison was available.
 
 ### 5. Separation of scoring from auditing
 
@@ -395,7 +401,7 @@ This prevents the record from confusing a model’s task response with the docum
 
 ### 6. Route and runtime separation
 
-Routes are disclosed per record: Prompts 1–20 and 33–47 use `FastPath 5.6 / Luna Max`; Prompt 21 uses `FastPath 5.6 / SOL Max`; Prompts 22–24, 26–32, and 48 use `FastPath 5.6 / Terra Extra High`; Prompt 25 uses `FastPath 5.6 / SOL Extra High`. The records do not convert a requested route into a claimed underlying model identity. Prompts 21–47 separately disclose official evaluator passes; the series reports no independent external verification.
+Routes are disclosed per record: Prompts 1–20 and 33–47 use `FastPath 5.6 / Luna Max`; Prompt 21 uses `FastPath 5.6 / SOL Max`; Prompts 22–24, 26–32, and 48–49 use `FastPath 5.6 / Terra Extra High`; Prompt 25 uses `FastPath 5.6 / SOL Extra High`. The records do not convert a requested route into a claimed underlying model identity. Prompts 21–47 separately disclose official evaluator passes; the series reports no independent external verification.
 
 ### 7. Reproducible evidence
 
@@ -409,11 +415,11 @@ The records use `NOT INDEPENDENTLY VERIFIED` because no independent reviewer or 
 
 Under the documented Grounded DI OS recording conditions:
 
-- all forty-eight published finalized responses passed their local equivalents of the official encoded constraints;
-- all forty-eight published records preserve the submitted response and disclose the applicable evaluator status;
-- the series contains 99/99 locally passed encoded constraints and 48/48 locally passed prompt-level strict results;
+- all forty-nine published finalized responses passed their local equivalents of the official encoded constraints;
+- all forty-nine published records preserve the submitted response and disclose the applicable evaluator status;
+- the series contains 102/102 locally passed encoded constraints and 49/49 locally passed prompt-level strict results;
 - Prompt 21 additionally reports an official strict and loose pass for all three encoded constraints; Prompts 22–27 each report an official strict and loose pass for their one encoded constraint, Prompts 28–44 each report an official strict and loose pass for their two encoded constraints, and Prompts 45–47 each report an official strict and loose pass for their two encoded constraints;
-- the series contains 48 complete documented records, including a second recorded run of item 1705 as Prompt 36;
+- the series contains 49 complete documented records, including a second recorded run of item 1705 as Prompt 36;
 - the two disclosed preflight corrections are included in the aggregate total.
 
 ## What the series does not establish
@@ -421,7 +427,7 @@ Under the documented Grounded DI OS recording conditions:
 This is not:
 
 - an official IFEval leaderboard score;
-- a complete official evaluation of all forty-eight published records;
+- a complete official evaluation of all forty-nine published records;
 - an independently verified benchmark;
 - a blind third-party evaluation;
 - a claim that the route will pass every IFEval item;
@@ -429,7 +435,7 @@ This is not:
 - proof of a particular underlying model identity;
 - proof of legal, factual, or universal reliability.
 
-The most accurate description is: **a documented Grounded DI OS one-shot run of forty-eight published official IFEval records at prompt positions 1–48, with all final responses passing transparent local checks, Prompts 21–47 additionally passing official checker executions, and no independent verification claim.**
+The most accurate description is: **a documented Grounded DI OS one-shot run of forty-nine published official IFEval records at prompt positions 1–49, with all final responses passing transparent local checks, Prompts 21–47 additionally passing official checker executions, and no independent verification claim.**
 
 
 ## Suggested reproduction procedure
@@ -448,8 +454,8 @@ The most accurate description is: **a documented Grounded DI OS one-shot run of 
 ## Status
 
 **INTERNAL ONE-SHOT RECORDS**  
-**LOCAL CHECK PASS: 48/48 PUBLISHED RECORDS**  
-**OFFICIAL EVALUATOR: 27/48 EXECUTED · PROMPTS 21–47 PASS**  
+**LOCAL CHECK PASS: 49/49 PUBLISHED RECORDS**  
+**OFFICIAL EVALUATOR: 27/49 EXECUTED · PROMPTS 21–47 PASS**  
 **EVIDENCE: NOT INDEPENDENTLY VERIFIED**
 
 #Grounded-DI #DeterministicIntelligence #CrossDomain #AuditableAI 
