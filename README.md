@@ -13,8 +13,8 @@ The series uses official Google Research Instruction-Following Evaluation (IFEva
 | Benchmark records published | 61 / 61 |
 | Prompt-level strict passes under the documented local checks | 61 / 61 |
 | Official encoded constraints passed locally | 133 / 133 |
-| Official evaluator records in this workspace | 27 / 60 |
-| Independent external verifications | 0 / 60 |
+| Official evaluator records in this workspace | 27 / 61 |
+| Independent external verifications | 0 / 61 |
 | Private preflight corrections | 2 total |
 
 The result is therefore a complete local pass record for the sixty-one published records. Prompts 30, 32, and 36 are repeat recorded runs of official IFEval items 136, 1936, and 1705 respectively; the series is not an official IFEval score or an independently verified benchmark result.
