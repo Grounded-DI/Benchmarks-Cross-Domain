@@ -345,7 +345,7 @@ After finalization, the scored response was preserved exactly. No response was c
 
 ### 4. Evaluator honesty
 
-The official IFEval evaluator was not executed for Prompts 1–20 in this workspace. Prompts 21–43 were evaluated with the official Google Research checker source: Prompt 21 reports 3/3 encoded constraints passed on both strict and loose paths, Prompts 22–27 each report 1/1 on both paths, Prompts 28–41 each report 2/2 on both paths, and Prompt 42 reports 3/3 on both paths. The README therefore distinguishes the local checks for Prompts 1–20 from the twenty-three official executions across the forty-three published records.
+The official IFEval evaluator was not executed for Prompts 1–20 in this workspace. Prompts 21–43 were evaluated with the official Google Research checker source: Prompt 21 reports 3/3 encoded constraints passed on both strict and loose paths, Prompts 22–27 each report 1/1 on both paths, Prompts 28–42 each report 2/2 on both paths, and Prompt 43 reports 2/2 on both paths. The README therefore distinguishes the local checks for Prompts 1–20 from the twenty-three official executions across the forty-three published records.
 
 Prompts 1–20 are labeled:
 
