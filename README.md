@@ -661,4 +661,12 @@ The most accurate description is: **a documented Grounded DI OS one-shot run of 
 **OFFICIAL EVALUATOR: 27/83 EXECUTED · PROMPTS 21–47 PASS**  
 **EVIDENCE: NOT INDEPENDENTLY VERIFIED**
 
-#Grounded-DI #DeterministicIntelligence #CrossDomain #AuditableAI 
+
+
+## Provenance and Integration
+
+The repository history records publication of the 83 prompt-position records through September 4, 2026. Each PDF preserves the source item, submitted response, encoded constraints, evaluator status, local checks, evidence boundary, and artifact hashes. The published SHA-256 manifest provides an additional identity check for the initial Prompts 1–20 certificate bundle.
+
+The series is suitable for technical review of instruction-following control, criterion-level auditing, and evidence-preserving benchmark records. Organizations evaluating reproducible AI-output controls may contact [Grounded DI LLC](https://github.com/Grounded-DI) regarding research, integration, or licensing.
+
+Publisher: Grounded DI LLC
