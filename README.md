@@ -14,7 +14,7 @@ The series uses official Google Research Instruction-Following Evaluation (IFEva
 | --- | ---: |
 | Benchmark records published | 83 / 83 |
 | Prompt-level strict passes under the documented local checks | 83 / 83 |
-| Official encoded constraints passed locally | 187 / 187 |
+| Official encoded constraints passed locally | 188 / 188 |
 | Official evaluator records in this workspace | 27 / 83 |
 | Independent external verifications | 0 / 83 |
 | Private preflight corrections | 2 total |
@@ -220,8 +220,6 @@ Prompts 25 and 26 are published as PDF records and supplied package-hash sidecar
 | 83 | [Prompt 83 package — PDF record + internal PDF hash](Grounded_DI_OS_Benchmark_Record_Prompt83_IFEval_3081_Luna_Max_Package.zip) · [standalone PDF record](Grounded_DI_OS_Benchmark_Record_Prompt83_IFEval_3081_Luna_Max.pdf) · ZIP SHA-256: `85ba1ca4eb108cd6a8ceaeecde078868b6e7c9a9dfeada8edbd3ad46019cf441` |
 
 Prompts 27 through 47 are published with both standalone PDF records and archival ZIP packages. The separate sidecars verify the ZIP packages; each ZIP also contains the PDF and its internal PDF checksum. Prompts 30, 32, and 36 are repeat recorded runs of items 136, 1936, and 1705; Prompt 36 is published with its standalone PDF and archival package. Prompts 39–47 include the supplied standalone-PDF and package SHA-256 sidecars. Prompts 51–83 are published with standalone PDFs and archival ZIP packages; each supplied ZIP contains the unmodified PDF and its internal PDF checksum. The package SHA-256 values are recorded inline above because no separate external package sidecar was supplied for these thirty-three records.
-
-A consolidated bundle for the first three records is also available: [Prompts 1-3 regenerated bundle](Grounded_DI_Universal_Benchmark_Records_IFEval_136_1325_1377_Regenerated.zip).
 
 ## Prompt-by-prompt explanation
 
@@ -584,7 +582,7 @@ After finalization, the scored response was preserved exactly. No response was c
 
 ### 4. Evaluator honesty
 
-The official IFEval evaluator was not executed for Prompts 1–20 and 48–83 in this workspace. Prompts 21–47 were evaluated with the official Google Research checker source: Prompt 21 reports 3/3 encoded constraints passed on both strict and loose paths, Prompts 22–27 each report 1/1 on both paths, Prompts 28–44 each report 2/2 on both paths, and Prompts 45–47 each report 2/2 on both paths. The README therefore distinguishes the local checks for Prompts 1–20 and 48–83 from the twenty-seven official executions across the eighty-three published records.
+The official IFEval evaluator was not executed for Prompts 1–20 and 48–83 in this workspace. Prompts 21–47 were evaluated with the official Google Research checker source: Prompt 21 reports 3/3 encoded constraints passed on both strict and loose paths, Prompts 22–27 each report 1/1 on both paths, Prompts 28–40, 43, and 44 each report 2/2 on both paths; Prompts 41 and 42 each report 3/3 on both paths, and Prompts 45–47 each report 2/2 on both paths. The README therefore distinguishes the local checks for Prompts 1–20 and 48–83 from the twenty-seven official executions across the eighty-three published records.
 
 Prompts 1–20 and 48–83 are labeled:
 
@@ -620,8 +618,8 @@ For the records documented here:
 
 - all eighty-three published finalized responses passed their local checks for the official encoded constraints, with Prompt 59's sentence count explicitly documented as a fallback because the source NLTK English model asset was unavailable;
 - all eighty-three published records preserve the submitted response and disclose the applicable evaluator status;
-- the series contains 187/187 locally passed encoded constraints and 83/83 locally passed prompt-level strict results;
-- Prompt 21 additionally reports an official strict and loose pass for all three encoded constraints; Prompts 22–27 each report an official strict and loose pass for their one encoded constraint, Prompts 28–44 each report an official strict and loose pass for their two encoded constraints, and Prompts 45–47 each report an official strict and loose pass for their two encoded constraints;
+- the series contains 188/188 locally passed encoded constraints and 83/83 locally passed prompt-level strict results;
+- Prompt 21 additionally reports an official strict and loose pass for all three encoded constraints; Prompts 22–27 each report an official strict and loose pass for their one encoded constraint, Prompts 28–40, 43, and 44 each report an official strict and loose pass for their two encoded constraints, Prompts 41 and 42 each report an official strict and loose pass for their three encoded constraints, and Prompts 45–47 each report an official strict and loose pass for their two encoded constraints;
 - the series contains 80 distinct IFEval item records across 83 published prompt positions, with repeat recorded runs of items 136, 1936, and 1705 at Prompts 30, 32, and 36 respectively;
 - the two disclosed preflight corrections are included in the aggregate total.
 
