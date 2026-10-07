@@ -1,3 +1,6 @@
+Update: The 83/83 checkpoint and supporting materials were published as of September 4, 2026 10, 2026 and remain publicly accessible. 
+
+
 # Grounded DI OS Cross-Domain Benchmark Series
 
 ## Google Research IFEval Prompts 1-83
