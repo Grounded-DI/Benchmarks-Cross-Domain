@@ -1,0 +1,114 @@
+{
+  "snapshot_date": "2026-10-16",
+  "ifeval": {
+    "directory": ".",
+    "result": "83/83 local prompt passes; 188/188 encoded constraints; 80 distinct items; 27/83 official evaluator executions; 0 independent verifications",
+    "source_commit": "b9f4cd11061e25fb2845df4d72cd0336862301d6"
+  },
+  "collections": [
+    {
+      "id": "harvey-lab",
+      "title": "Harvey LAB \u2014 BriefWise 501/501",
+      "repo": "briefwise-di-performance-on-harvey-lab-benchmark-audit",
+      "kind": "provisional local criterion audit",
+      "result": "501/501 criteria locally audited \u2014 provisional",
+      "boundary": "Not an official Harvey or Artificial Analysis score; independent external validation is not established. Package-level criterion counts and the aggregate checkpoint remain separate.",
+      "source_commit": "d0d912c2ea03bb0e4797315094379b9f54ac2cb5",
+      "source_repository": "Grounded-DI/briefwise-di-performance-on-harvey-lab-benchmark-audit",
+      "directory": "benchmarks/harvey-lab",
+      "source_url": "https://github.com/Grounded-DI/briefwise-di-performance-on-harvey-lab-benchmark-audit/tree/d0d912c2ea03bb0e4797315094379b9f54ac2cb5",
+      "asset_count": 30
+    },
+    {
+      "id": "overfitting-dicta-freshworks",
+      "title": "Overfitting Dicta / Legora \u2014 Freshworks FY2023",
+      "repo": "benchmarks-briefwise-di2-freshworks-fy2023-review",
+      "kind": "retrospective original-mission review",
+      "result": "89/89 applicable review-weight points; separate Deterministic v2 grade: 89.75/100",
+      "boundary": "The 89-point denominator was reconstructed after the deliverable existed, excluding 11 points from the later 100-point scale. These are weighted points, not 89 independently counted criteria. Provisional internal assessment with a minor drafting reservation; no official operator evaluation or independent third-party audit.",
+      "source_commit": "4f9b153ca2e40af8e1400f9b97b922a8fa888a63",
+      "source_repository": "Grounded-DI/benchmarks-briefwise-di2-freshworks-fy2023-review",
+      "directory": "benchmarks/overfitting-dicta-freshworks",
+      "source_url": "https://github.com/Grounded-DI/benchmarks-briefwise-di2-freshworks-fy2023-review/tree/4f9b153ca2e40af8e1400f9b97b922a8fa888a63",
+      "asset_count": 7
+    },
+    {
+      "id": "verdictbridge-replay",
+      "title": "VerdictBridge \u2014 synthetic controlled replay",
+      "repo": "VerdictBridge",
+      "kind": "synthetic closed-world replay",
+      "result": "Lane v. Apex: two identical archives; separate sealed speed-branch record: three executions",
+      "boundary": "Synthetic inputs and closed-world law. Recorded VerdictReady/export states apply only to the named synthetic records. The screenshot certificate preserves a separate review-required / export-held state. No general legal correctness or universal model determinism is established.",
+      "source_commit": "5a975af2830f94941b36d6d2e869f05fab2bbb0f",
+      "source_repository": "Grounded-DI/VerdictBridge",
+      "directory": "benchmarks/verdictbridge-replay",
+      "source_url": "https://github.com/Grounded-DI/VerdictBridge/tree/5a975af2830f94941b36d6d2e869f05fab2bbb0f",
+      "asset_count": 5
+    },
+    {
+      "id": "visual-comparisons",
+      "title": "Visual assessments and handbag comparison",
+      "repo": "Deterministic-VIsual-Assessments-",
+      "kind": "qualitative comparison and diagnostic demonstrations",
+      "result": "Preserved phenotype, product-riddle, and handbag comparison records; no standardized aggregate score",
+      "boundary": "Qualitative observations, not standardized benchmark scores or independent model validation. Visual phenotype fit is not ancestry proof; product-class reconstruction is not manufacturer authentication.",
+      "source_commit": "5e6d4d7f3a8d56ceaec49ea7809f9fac41ff849b",
+      "source_repository": "Grounded-DI/Deterministic-VIsual-Assessments-",
+      "directory": "benchmarks/visual-comparisons",
+      "source_url": "https://github.com/Grounded-DI/Deterministic-VIsual-Assessments-/tree/5e6d4d7f3a8d56ceaec49ea7809f9fac41ff849b",
+      "asset_count": 5
+    },
+    {
+      "id": "di2-historical",
+      "title": "DI\u00b2 \u2014 historical determinism benchmark",
+      "repo": "DI-2",
+      "kind": "historical self-reported benchmark artifact",
+      "result": "August 14, 2025 command-sequence and stability-scan record",
+      "boundary": "The word Official belongs to the preserved source filename and title. The archive does not supply an executable evaluator or independent verification of its runtime claims.",
+      "source_commit": "800fcd0281657f7377ff99c460ab63a7f1507972",
+      "source_repository": "Grounded-DI/DI-2",
+      "directory": "benchmarks/di2-historical",
+      "source_url": "https://github.com/Grounded-DI/DI-2/tree/800fcd0281657f7377ff99c460ab63a7f1507972",
+      "asset_count": 1
+    },
+    {
+      "id": "legacy-diagnostics",
+      "title": "BatteryWise and ClarityWise \u2014 historical diagnostic demos",
+      "repo": "deterministic-intelligence",
+      "kind": "historical diagnostic prompts and illustrative outputs",
+      "result": "Battery-efficiency prompt/template and ClarityWise diagnostic demonstration",
+      "boundary": "No aggregate benchmark score or independent engineering/clinical validation is established. The BatteryWise file is a prompt/template, not a completed measured test. ClarityWise medical and comparative statements remain source-reported educational claims.",
+      "source_commit": "2301413508f41d2eb95b5e1800b648f5de6ad371",
+      "source_repository": "Grounded-DI/deterministic-intelligence",
+      "directory": "benchmarks/legacy-diagnostics",
+      "source_url": "https://github.com/Grounded-DI/deterministic-intelligence/tree/2301413508f41d2eb95b5e1800b648f5de6ad371",
+      "asset_count": 3
+    },
+    {
+      "id": "harvey-earlier-packages",
+      "title": "Harvey LAB \u2014 earlier August packages and Ridgeline stages",
+      "repo": "-Social-Media-Posts-August-2026",
+      "kind": "earlier provisional local-audit packages",
+      "result": "Four-task 188/188 coverage checkpoint; Ridgeline baseline 36/50 and rubric-aware remediation 50/50",
+      "boundary": "Earlier checkpoints overlap the Harvey audit sequence and must not be added to 501/501. Provisional self-audits; the official Harvey evaluator was not run.",
+      "source_commit": "9424f039e8e6caf6f07e810905cd95053ddae82b",
+      "source_repository": "Grounded-DI/-Social-Media-Posts-August-2026",
+      "directory": "benchmarks/harvey-earlier-packages",
+      "source_url": "https://github.com/Grounded-DI/-Social-Media-Posts-August-2026/tree/9424f039e8e6caf6f07e810905cd95053ddae82b",
+      "asset_count": 4
+    },
+    {
+      "id": "ulam-reproducibility",
+      "title": "Ulam prime-density \u2014 three-execution artifact reproducibility",
+      "repo": "-Social-Media-Posts-August-2026",
+      "kind": "bounded artifact byte-reproducibility record",
+      "result": "Three preserved execution packets with reported CSV, PNG, and ZIP identity",
+      "boundary": "Artifact-level identity under the specified generation and serialization protocol; not an underlying-model benchmark, general reasoning proof, or universal determinism.",
+      "source_commit": "9424f039e8e6caf6f07e810905cd95053ddae82b",
+      "source_repository": "Grounded-DI/-Social-Media-Posts-August-2026",
+      "directory": "benchmarks/ulam-reproducibility",
+      "source_url": "https://github.com/Grounded-DI/-Social-Media-Posts-August-2026/tree/9424f039e8e6caf6f07e810905cd95053ddae82b",
+      "asset_count": 5
+    }
+  ]
+}
