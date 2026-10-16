@@ -21,7 +21,9 @@ The 89-point denominator was reconstructed after the deliverable existed, exclud
 
 ### Published-source gaps and score history
 
-The source README and certificate refer to `Freshworks FY2023 original mission review.json` and the completed Master File PDF/DOCX. Those files are absent from the inspected source tree and are not included here. The source README also links to the absent review JSON and completed PDF. The mirrored `benchmark_spec.json` references matter inputs that are not published in this snapshot. This collection does not reconstruct or publish those missing materials.
+At the pinned source snapshot, the README linked to the absent `Freshworks FY2023 original mission review.json` and completed Master File PDF; the certificate also refers to the completed Master File PDF/DOCX. Those files are not included here. The mirrored `benchmark_spec.json` references matter inputs that are not published in this snapshot. This collection does not reconstruct or publish those missing materials.
+
+On October 16, 2026, the [source README navigation repair](https://github.com/Grounded-DI/benchmarks-briefwise-di2-freshworks-fy2023-review/blob/d8b2bd481c577167fbf4896ba735846ab56c8958/README.md) replaced the broken links with published review/scoring resources and explicitly identified the unpublished evidence. The missing review JSON and completed Master File PDF/DOCX remain unpublished in the current source repository. Their absence does not establish that the underlying work was never performed; intentional withholding is not established by the public record. This navigation update leaves the pinned snapshot and preserved assessment files unchanged.
 
 The certificate records a reservation about Section 6 wording suggesting that supporting Local Files were provided, when their delivery is not established. Preserve that reservation before external reliance.
 
