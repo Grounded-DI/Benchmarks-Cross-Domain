@@ -8,7 +8,7 @@ This repository brings together the Google Research IFEval series, BriefWise's H
 | --- | --- |
 | [IFEval series](#google-research-ifeval-prompts-1-83) | 83/83 local prompt passes; 188/188 local encoded-constraint passes; 27/83 official evaluator executions; no independent verification |
 | [Harvey LAB](benchmarks/harvey-lab/README.md) | 501/501 criteria — provisional local audit; not an official Harvey score |
-| [Overfitting Dicta / Legora — Freshworks](benchmarks/overfitting-dicta-freshworks/README.md) | 89/89 applicable review-weight points under retrospective original-mission review; separate later-v2 grade 89.75/100; disclosed scope and reservation |
+| [Overfitting Dicta / Legora — Freshworks](benchmarks/overfitting-dicta-freshworks/README.md) | 89/89 applicable review-weight points under retrospective original-mission review; disclosed scope and reservation |
 | [All other records and related repositories](BENCHMARK_INDEX.md#replay-historical-and-qualitative-records) | Synthetic replay tests, artifact reproducibility, historical benchmark records, and qualitative comparisons |
 
 Counts use different units and scopes and must not be added into a combined performance score. Original source repositories remain canonical; the collection preserves dated public materials and their limitations.

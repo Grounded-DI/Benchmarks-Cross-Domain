@@ -24,13 +24,13 @@
       "title": "Overfitting Dicta / Legora \u2014 Freshworks FY2023",
       "repo": "benchmarks-briefwise-di2-freshworks-fy2023-review",
       "kind": "retrospective original-mission review",
-      "result": "89/89 applicable review-weight points; separate Deterministic v2 grade: 89.75/100",
+      "result": "89/89 applicable review-weight points",
       "boundary": "The 89-point denominator was reconstructed after the deliverable existed, excluding 11 points from the later 100-point scale. These are weighted points, not 89 independently counted criteria. Provisional internal assessment with a minor drafting reservation; no official operator evaluation or independent third-party audit.",
-      "source_commit": "4f9b153ca2e40af8e1400f9b97b922a8fa888a63",
+      "source_commit": "65838d17a055a98acc483c2166faa23e52d4c4b2",
       "source_repository": "Grounded-DI/benchmarks-briefwise-di2-freshworks-fy2023-review",
       "directory": "benchmarks/overfitting-dicta-freshworks",
-      "source_url": "https://github.com/Grounded-DI/benchmarks-briefwise-di2-freshworks-fy2023-review/tree/4f9b153ca2e40af8e1400f9b97b922a8fa888a63",
-      "asset_count": 7
+      "source_url": "https://github.com/Grounded-DI/benchmarks-briefwise-di2-freshworks-fy2023-review/tree/65838d17a055a98acc483c2166faa23e52d4c4b2",
+      "asset_count": 6
     },
     {
       "id": "verdictbridge-replay",

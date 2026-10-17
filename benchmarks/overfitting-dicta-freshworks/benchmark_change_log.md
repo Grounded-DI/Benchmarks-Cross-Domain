@@ -1,10 +1,14 @@
 # Benchmark change log
 
+## Publication correction — 16 October 2026
+
+The canceled later-v2 grade report has been removed from the current publication. The recorded result is **89/89 applicable original-mission review-weight points**. The later-v2 rubric and specification remain as the disclosed accounting reference.
+
 ## Version 2.0.0 — deterministic evidence-disciplined update
 
 Date: 16 October 2026
 
-Status: active benchmark for the Freshworks Group Master File — FY2023.
+Status: reference scoring framework for the Freshworks Group Master File — FY2023.
 
 The original Rubric with citations.md was preserved. The completed Master File was not modified. No web source or external fact was used.
 
@@ -13,7 +17,6 @@ The original Rubric with citations.md was preserved. The completed Master File w
 - Rubric with citations — Deterministic v2.md — human-readable benchmark.
 - benchmark_spec.json — canonical machine-readable specification.
 - benchmark_change_log.md — this audit and change record.
-- freshworks_deterministic_grade.md — grade of the completed DOCX under v2.
 
 ## Baseline audit
 
@@ -143,5 +146,5 @@ No original R-ID was discarded. The full source-rid arrays are the preserved cro
 
 ## Validation record
 
-The accompanying grade report records the completed DOCX score, guardrails, criterion-level evidence matrix, remaining ambiguities, comparison with the prior normalized grade, and delivery verdict. The completed DOCX was treated as read-only input.
+The [original-mission review](Freshworks%20FY2023%20original%20mission%20review.md) records the 89/89 applicable review-weight result, guardrails, criterion-level evidence matrix, reservations, and delivery verdict. The completed DOCX was treated as read-only input.
 

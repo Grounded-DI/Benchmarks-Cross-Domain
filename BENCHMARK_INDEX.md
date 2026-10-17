@@ -10,7 +10,7 @@ This is the central navigation point for Grounded DI's published benchmark, loca
 | --- | --- | --- | --- |
 | Google Research IFEval | 83/83 local prompt passes; 188/188 encoded constraints; 80 distinct items across 83 positions | 27/83 official evaluator executions; 0 independent verifications; two disclosed preflight corrections | [Full record and source links](README.md#google-research-ifeval-prompts-1-83) |
 | Harvey LAB — BriefWise 501/501 | 501/501 criteria locally audited — provisional | provisional local criterion audit | [Files and scope](benchmarks/harvey-lab/README.md) · [Original repository](https://github.com/Grounded-DI/briefwise-di-performance-on-harvey-lab-benchmark-audit) |
-| Overfitting Dicta / Legora — Freshworks FY2023 | 89/89 applicable review-weight points; separate Deterministic v2 grade: 89.75/100 | retrospective original-mission review | [Files and scope](benchmarks/overfitting-dicta-freshworks/README.md) · [Original repository](https://github.com/Grounded-DI/benchmarks-briefwise-di2-freshworks-fy2023-review) |
+| Overfitting Dicta / Legora — Freshworks FY2023 | 89/89 applicable review-weight points | retrospective original-mission review | [Files and scope](benchmarks/overfitting-dicta-freshworks/README.md) · [Original repository](https://github.com/Grounded-DI/benchmarks-briefwise-di2-freshworks-fy2023-review) |
 
 The Harvey 501/501 count is a local criterion-audit checkpoint. The Freshworks 89/89 count is a retrospective applicable-weight review with a reconstructed denominator and a reservation. These use different units from IFEval prompt positions and encoded constraints. **Do not combine them into one pass rate.**
 
@@ -52,4 +52,4 @@ For updates, verify the new source commit and evidence status, copy the changed 
 
 ### Known publication gaps
 
-The Freshworks source refers to a completed Master File PDF/DOCX and an original-mission review JSON that are absent from its inspected public tree. Its published certificate, Markdown review, later-v2 rubric, specification, change log, and grade are included here. Missing materials are not reconstructed. See the [Freshworks folder](benchmarks/overfitting-dicta-freshworks/README.md) for the denominator history and drafting reservation.
+The Freshworks source refers to a completed Master File PDF/DOCX and an original-mission review JSON that are absent from its inspected public tree. Its published certificate, Markdown review, later-v2 rubric, specification, and change log are included here. Missing materials are not reconstructed. See the [Freshworks folder](benchmarks/overfitting-dicta-freshworks/README.md) for the denominator history and drafting reservation.

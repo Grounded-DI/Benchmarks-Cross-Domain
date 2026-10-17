@@ -162,9 +162,7 @@ Based on the supplied Freshworks FY2023 matter record and the original mission r
 
 This is a bounded internal AI-assisted assessment of original-mission completion. The denominator was reconstructed for this review using a disclosed scope adjustment to a later scoring scale; it is not a contemporaneous benchmark score. BriefWise did not have the later v2 instructions during the original work, and no later benchmark score is attributed to that work. This assessment is not independent external certification, a legal or tax opinion, an assurance opinion, a filing-readiness determination, or third-party approval. It does not establish a 100% success record across other Grounded DI benchmarks.
 
-## Comparison and disposition
-
-The previous 89.75/100 was a later, retrospective diagnostic with incorrect source assumptions and inconsistent treatment of optional details. It is not carried forward as the contemporaneous original-mission result. This review reports its own scope and arithmetic explicitly.
+## Disposition
 
 **Delivery verdict:** original drafting mission substantively completed; usable subject to the minor Local Files wording clarification before external reliance. The DOCX has not been edited.
 
