@@ -2,10 +2,7 @@
 
 [All benchmarks](../../BENCHMARK_INDEX.md) · [Source repository](https://github.com/Grounded-DI/briefwise-di-performance-on-harvey-lab-benchmark-audit) · [Pinned source snapshot](https://github.com/Grounded-DI/briefwise-di-performance-on-harvey-lab-benchmark-audit/tree/d0d912c2ea03bb0e4797315094379b9f54ac2cb5)
 
-**Record type:** provisional local criterion audit
-**Recorded result:** 501/501 criteria locally audited — provisional
-
-Not an official Harvey or Artificial Analysis score; independent external validation is not established. Package-level criterion counts and the aggregate checkpoint remain separate.
+Grounded DI audited **501/501 criteria** locally using the Harvey LAB framework. This unofficial result covers the aggregate sequence. Each package records its own criteria and outcomes.
 
 ## Preserved materials
 
