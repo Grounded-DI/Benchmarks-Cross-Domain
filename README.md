@@ -2,12 +2,12 @@
 
 **[Browse all benchmarks and evaluation records](BENCHMARK_INDEX.md)**
 
-This repository brings together the Google Research IFEval series, BriefWise's Harvey LAB 501/501 provisional local audit, the Overfitting Dicta / Legora Freshworks FY2023 review, and additional bounded replay, historical, and qualitative comparison records. Added materials are grouped under [`benchmarks/`](benchmarks/) with source-repository cross-references and a [byte-identity manifest](BENCHMARK_ASSETS.json).
+This repository brings together the Google Research IFEval series, BriefWise's Harvey LAB 501/501 unofficial local audit, the Overfitting Dicta / Legora Freshworks FY2023 review, and additional bounded replay, historical, and qualitative comparison records. Added materials are grouped under [`benchmarks/`](benchmarks/) with source-repository cross-references and a [byte-identity manifest](BENCHMARK_ASSETS.json).
 
 | Start here | Recorded result and scope |
 | --- | --- |
 | [IFEval series](#google-research-ifeval-prompts-1-83) | 83/83 local prompt passes; 188/188 local encoded-constraint passes; 27/83 official evaluator executions; no independent verification |
-| [Harvey LAB](benchmarks/harvey-lab/README.md) | 501/501 criteria — provisional local audit; not an official Harvey score |
+| [Harvey LAB](benchmarks/harvey-lab/README.md) | 501/501 criteria audited locally by Grounded DI (unofficial) |
 | [Overfitting Dicta / Legora — Freshworks](benchmarks/overfitting-dicta-freshworks/README.md) | 89/89 applicable review-weight points under retrospective original-mission review; disclosed scope and reservation |
 | [All other records and related repositories](BENCHMARK_INDEX.md#replay-historical-and-qualitative-records) | Synthetic replay tests, artifact reproducibility, historical benchmark records, and qualitative comparisons |
 
@@ -160,7 +160,7 @@ The PDF is the primary record for each run. The scored response is reproduced ex
 | 20 | [Prompt 20 - IFEval 3098](Grounded_DI_OS_Benchmark_Record_Prompt20_IFEval_3098.pdf) |
 | 21 | [Prompt 21 - IFEval 2704](Grounded_DI_OS_Benchmark_Record_Prompt21_IFEval_2704_SOL_Max.pdf) · [supplied package-hash sidecar](Grounded_DI_OS_Benchmark_Record_Prompt21_IFEval_2704_SOL_Max_Package.zip.sha256.txt) |
 
-Prompt 21’s supplied SHA-256 sidecar names the source package archive. This update publishes the PDF record and sidecar; it does not claim that a separate Prompt 21 ZIP archive is present.
+The Prompt 21 PDF is accompanied by a checksum for the source ZIP.
 
 | 22 | [Prompt 22 package — PDF record + internal PDF hash](Grounded_DI_OS_Benchmark_Record_Prompt22_IFEval_2857_Terra_Extra_High_Package.zip) · [ZIP SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt22_IFEval_2857_Terra_Extra_High_Package.zip.sha256.txt) |
 
@@ -168,7 +168,7 @@ Prompt 22 is published as its archival ZIP package. The PDF record and its PDF c
 
 | 23 | [Prompt 23 - IFEval 3224](Grounded_DI_OS_Benchmark_Record_Prompt23_IFEval_3224_Terra_Extra_High.pdf) · [supplied package-hash sidecar](Grounded_DI_OS_Benchmark_Record_Prompt23_IFEval_3224_Terra_Extra_High_Package.zip.sha256.txt) |
 
-Prompt 23 is published as its PDF record and supplied package-hash sidecar. The sidecar names and hashes the source package archive; this update does not claim that a separate Prompt 23 ZIP archive is present.
+The Prompt 23 PDF is accompanied by a checksum for the source ZIP.
 
 | 24 | [Prompt 24 package — PDF record + internal PDF hash](Grounded_DI_OS_Benchmark_Record_Prompt24_IFEval_3753_Terra_Extra_High_Package.zip) · [ZIP SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt24_IFEval_3753_Terra_Extra_High_Package.zip.sha256.txt) |
 
@@ -178,7 +178,7 @@ Prompt 24 is published as its archival ZIP package. The PDF record and its PDF c
 
 | 26 | [Prompt 26 - IFEval 2880](Grounded_DI_OS_Benchmark_Record_Prompt26_IFEval_2880_Terra_Extra_High.pdf) · [supplied package-hash sidecar](Grounded_DI_OS_Benchmark_Record_Prompt26_IFEval_2880_Terra_Extra_High_Package.zip.sha256.txt) |
 
-Prompts 25 and 26 are published as PDF records and supplied package-hash sidecars. The sidecars name and hash their source package archives; this update does not claim that separate Prompt 25 or Prompt 26 ZIP archives are present.
+Each PDF for Prompts 25 and 26 is accompanied by a checksum for its source ZIP.
 
 | 27 | [Prompt 27 package — PDF record + internal PDF hash](Grounded_DI_OS_Benchmark_Record_Prompt27_IFEval_2311_Terra_Extra_High_Package.zip) · [ZIP SHA-256](Grounded_DI_OS_Benchmark_Record_Prompt27_IFEval_2311_Terra_Extra_High_Package.zip.sha256.txt) · [standalone PDF record](Grounded_DI_OS_Benchmark_Record_Prompt27_IFEval_2311_Terra_Extra_High.pdf) |
 
